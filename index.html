@@ -31,12 +31,12 @@
 	<h1 id='heading1'></h1>
 	<div class='canvasDiv'>
 		<canvas class="drawingCanvas" id="LorenzCanvas"></canvas>
-		<div class="canvasText">A "Lorenz Attractor" is a type of chaotic
-			<br>&nbsp;strange attractor that is based off the following formulae:
+		<div class="canvasText">A "Lorenz Attractor" is a type of chaotic strange attractor
+			<br>&nbsp;that is based off the following formulae:
 			<br>x = x+(s*y-x)
 			<br>y = y+(x*(r-z)-y)
 			<br>z = z+(x*y-b*z)
-			<br>Attractor's Attributes - init condition: random; (s, r, b): (10, 24, 8/3); steps: 10000
+			<br>Attractor's Attributes - init condition: random; (s, r, b): (10, 24, 8/3); steps: 100000
 			<br>(reloading will change initial condition)</div>
 	</div>
 </body>
@@ -46,7 +46,7 @@
 <script src="js/lorenz.js"></script>
 <script type="text/javascript">
 	$('#heading1').typed({
-		strings: ['Hello there!', "I'm Alex Shukhman", "Below is a Lorenz Attractor"]
+		strings: ['Hello there!', "I'm Alex Shukhman"]
 		, typeSpeed: 5
 		, showCursor: false
 	});
