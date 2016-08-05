@@ -16,7 +16,7 @@ h1 {
 	height: 500px;
 	width: 100%;
 	/* top, rl, bottom */
-	background-color: #bababa;
+	background-color: #eaeaea;
 }
 
 .canvasDiv {
@@ -36,5 +36,5 @@ foot {
 	font-size: 12pt;
 	text-align: right;
 	color: #151515;
-	background-color: #ffffff;
+	background-color: #fff;
 }
