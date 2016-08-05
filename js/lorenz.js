@@ -35,17 +35,24 @@ function Lorenz() {
 		}
 	}, 1000 / 1500);
 
-	function adjustX(zoom, x) {
-		return zoom * x + (this.ctx.canvas.width / 2);
+	function adjustX(zoom, x, center) {
+		return zoom * x + center;
 	}
 
-	function adjustY(zoom, y) {
-		return zoom * y + this.ctx.canvas.height / 2;
+	function adjustY(zoom, y, center) {
+		return zoom * y + center;
 	}
 
 	function drawPoint(zoom, x, y) {
-		x = adjustX(zoom, x);
-		y = adjustY(zoom, y);
+		if (this.ctx.canvas.width > this.ctx.canvas.height) {
+			x = adjustY(zoom, x, this.ctx.canvas.width / 2);
+			y = adjustY(zoom, y, this.ctx.canvas.height / 2);
+		}
+		else {
+			zoom = .5 * zoom;
+			x = adjustX(zoom, x, this.ctx.canvas.width / 2);
+			y = adjustX(zoom, y, this.ctx.canvas.height / 2);
+		}
 		this.ctx.fillRect(x, y, 1, 1);
 	}
 
