@@ -20,10 +20,37 @@
 	<!-- custom css -->
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
 	<!-- favicon -->
-	<link rel="shortcut icon" type="image/ico" href="favicon.ico" /> </head>
+	<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,400,700|Roboto:300,300i,400,400i,900,900i" rel="stylesheet">
+	<!-- Typed.js -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js'></script>
+	<!-- Extra Scripts -->
+	<script src="js/lorenz.js"></script>
+</head>
 
 <body>
-	<h1>Hello!</h1>
-	<h2>My name is Alex Shukhman</h2></body>
+	<h1 id='heading1'></h1>
+	<canvas class="drawingCanvas" id="Lorenz"></canvas>
+</body>
 
 </html>
+<script type="text/javascript">
+	$(function () {
+		$('#heading1').typed({
+			strings: ['Hello there!', "I'm Alex Shukhman", "Here, have a Lorenz Attractor:"]
+			, typeSpeed: 5
+			, showCursor: false
+		});
+	});
+	var lorenzCanvas = document.getElementById('Lorenz');
+	var lorenzCTX = lorenzCanvas.getContext("2d");
+	var s = 10;
+	var r = 6;
+	var b = 8 / 3;
+	var step = 100; //500 is average step size more is smoother, but shorter
+	var zoom = 2; //12 works fine
+	var steps = 400; // length of attractor
+	var randTF = true;
+	Lorenz(lorenzCTX, s, r, b, step, zoom, steps, randTF);
+</script>

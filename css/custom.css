@@ -1,0 +1,29 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24pt;
+	color: #151515;
+	background-color: #fafffa;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 50pt;
+	text-align: center;
+	margin: 10px;
+}
+
+.drawingCanvas {
+	height: 500px;
+	width: 100%;
+	margin: 5px 0 0;
+	/* top, rl, bottom */
+	background-color: lightgray;
+}
+
+foot {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	text-align: right;
+	color: #151515;
+	background-color: #ffffff;
+}
