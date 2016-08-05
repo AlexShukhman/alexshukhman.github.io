@@ -15,9 +15,20 @@ h1 {
 .drawingCanvas {
 	height: 500px;
 	width: 100%;
-	margin: 5px 0 0;
 	/* top, rl, bottom */
 	background-color: lightgray;
+}
+
+.canvasDiv {
+	position: relative;
+	margin: 0;
+}
+
+.canvasText {
+	position: absolute;
+	font-size: 10pt;
+	bottom: 25px;
+	left: 25px
 }
 
 foot {

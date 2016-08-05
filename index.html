@@ -25,32 +25,30 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,400,700|Roboto:300,300i,400,400i,900,900i" rel="stylesheet">
 	<!-- Typed.js -->
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js'></script>
-	<!-- Extra Scripts -->
-	<script src="js/lorenz.js"></script>
 </head>
 
 <body>
 	<h1 id='heading1'></h1>
-	<canvas class="drawingCanvas" id="Lorenz"></canvas>
+	<div class='canvasDiv'>
+		<canvas class="drawingCanvas" id="LorenzCanvas"></canvas>
+		<div class="canvasText">A "Lorenz Attractor" is a type of chaotic
+			<br>&nbsp;strange attractor that is based off the following formulae:
+			<br>x = x+(s*y-x)
+			<br>y = y+(x*(r-z)-y)
+			<br>z = z+(x*y-b*z)
+			<br>Attractor's Attributes - init condition: random; (s, r, b): (10, 24, 8/3); steps: 10000
+			<br>(reloading will change initial condition)</div>
+	</div>
 </body>
 
 </html>
+<!-- Extra Scripts -->
+<script src="js/lorenz.js"></script>
 <script type="text/javascript">
-	$(function () {
-		$('#heading1').typed({
-			strings: ['Hello there!', "I'm Alex Shukhman", "Here, have a Lorenz Attractor:"]
-			, typeSpeed: 5
-			, showCursor: false
-		});
+	$('#heading1').typed({
+		strings: ['Hello there!', "I'm Alex Shukhman", "Below is a Lorenz Attractor"]
+		, typeSpeed: 5
+		, showCursor: false
 	});
-	var lorenzCanvas = document.getElementById('Lorenz');
-	var lorenzCTX = lorenzCanvas.getContext("2d");
-	var s = 10;
-	var r = 6;
-	var b = 8 / 3;
-	var step = 100; //500 is average step size more is smoother, but shorter
-	var zoom = 2; //12 works fine
-	var steps = 400; // length of attractor
-	var randTF = true;
-	Lorenz(lorenzCTX, s, r, b, step, zoom, steps, randTF);
+	$(document).ready(Lorenz());
 </script>
