@@ -7,7 +7,8 @@ function Lorenz() {
 	this.b = 8 / 3;
 	var step = 500; //500 is average step size more is smoother, but shorter length
 	var zoom = 5; //5 works fine
-	var steps = 30000; // length of attractor
+	this.zzoom = .05; // .05 works fine
+	var steps = 10000; // length of attractor
 	var randTF = true; // if random init condition or 0,0,0
 	console.log('starting Lorenz');
 	this.ctx.lineWidth = '0';
@@ -16,7 +17,7 @@ function Lorenz() {
 		var point = {
 			x: 2 * Math.random() * zoom - zoom
 			, y: 2 * Math.random() * zoom - zoom
-			, z: 2 * Math.random() * zoom - zoom
+			, z: 2 * Math.random() / this.zzoom - 1 / this.zzoom
 		};
 	}
 	else {
@@ -43,7 +44,7 @@ function Lorenz() {
 		return zoom * y + center;
 	}
 
-	function drawPoint(zoom, x, y) {
+	function drawPoint(zoom, x, y, z) {
 		if (this.ctx.canvas.width > this.ctx.canvas.height) {
 			x = adjustY(zoom, x, this.ctx.canvas.width / 2);
 			y = adjustY(zoom, y, this.ctx.canvas.height / 2);
@@ -53,7 +54,7 @@ function Lorenz() {
 			x = adjustX(zoom, x, this.ctx.canvas.width / 2);
 			y = adjustX(zoom, y, this.ctx.canvas.height / 2);
 		}
-		this.ctx.fillRect(x, y, 1, 1);
+		this.ctx.fillRect(x, y, z * this.zzoom, z * this.zzoom);
 	}
 
 	function lorenzRepeater(point, zoom, step) {
@@ -63,7 +64,7 @@ function Lorenz() {
 		var s = this.s;
 		var r = this.r;
 		var b = this.b;
-		drawPoint(zoom, x, y);
+		drawPoint(zoom, x, y, z);
 		var deltaX = s * (y - x) / step;
 		var deltaY = (x * (r - z) - y) / step;
 		var deltaZ = (x * y - b * z) / step;
