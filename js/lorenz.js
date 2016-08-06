@@ -7,7 +7,7 @@ function Lorenz() {
 	this.b = 8 / 3;
 	var step = 500; //500 is average step size more is smoother, but shorter length
 	var zoom = 5; //5 works fine
-	var steps = 100000; // length of attractor
+	var steps = 30000; // length of attractor
 	var randTF = true; // if random init condition or 0,0,0
 	console.log('starting Lorenz');
 	this.ctx.lineWidth = '0';
