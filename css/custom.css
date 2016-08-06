@@ -31,6 +31,15 @@ h1 {
 	left: 25px
 }
 
+.canvasButton {
+	position: absolute;
+	font-size: 10pt;
+	top: 25px;
+	right: 25px;
+	background: inherit;
+	border: none;
+}
+
 foot {
 	font-family: 'Roboto', sans-serif;
 	font-size: 12pt;

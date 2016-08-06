@@ -10,7 +10,6 @@ function Lorenz() {
 	this.zzoom = .05; // .05 works fine
 	var steps = 10000; // length of attractor
 	var randTF = true; // if random init condition or 0,0,0
-	console.log('starting Lorenz');
 	this.ctx.lineWidth = '0';
 	this.ctx.fillStyle = "#2b412b";
 	if (randTF) {
@@ -27,7 +26,6 @@ function Lorenz() {
 			, z: 0
 		};
 	}
-	console.log('starting for loop, steps = ' + steps);
 	var iterations = 0;
 	setInterval(function () {
 		if (iterations <= steps) {

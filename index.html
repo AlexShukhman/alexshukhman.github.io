@@ -32,7 +32,8 @@
 	<!-- Lorenz Attractor -->
 	<div class='canvasDiv'>
 		<canvas class="drawingCanvas" id="LorenzCanvas"></canvas>
-		<div class="canvasText" style="margin-right:25px;">A "<strong>Lorenz Attractor</strong>" is a type of chaotic strange attractor
+		<button class="canvasButton" onclick="lorenzClicked()"><strong>Try Me!</strong></button>
+		<div class="canvasText" style="margin-right:50vw;">A "<strong>Lorenz Attractor</strong>" is a type of chaotic strange attractor
 			<br>&nbsp;that is based off the following formulae:
 			<br>x = x+(s*y-x)
 			<br>y = y+(x*(r-z)-y)
@@ -52,5 +53,8 @@
 		, typeSpeed: 5
 		, showCursor: false
 	});
-	$(document).ready(Lorenz());
+
+	function lorenzClicked() {
+		Lorenz();
+	}
 </script>
