@@ -1,3 +1,4 @@
+// lorenz code
 function Lorenz() {
 	var lorenzCanvas = document.getElementById('LorenzCanvas');
 	this.ctx = lorenzCanvas.getContext("2d");
@@ -76,4 +77,81 @@ function Lorenz() {
 		};
 		return newPoint;
 	}
+}
+// /lorenz code
+// hashing code
+function stringify(dec) {
+	dec = Math.abs(dec);
+	var s = toString(dec).replace('.', '');
+	return s;
+}
+
+function decimalify(s) { // to decimal, s is a string array
+	if (s.length <= 2) {
+		return parseInt(s.join(''));
+	}
+	var leader = s.slice(0, 2).join('');
+	var follower = s.slice(2, 0).join('');
+	return parseFloat(leader + '.' + follower);
+}
+
+function toCoords(s) {
+	var binaryVal = '';
+	for (var i = 0; i < s.length; i++) {
+		binaryVal += s[i].charCodeAt(0).toString(2);
+	} // to binary
+	s = parseInt(binaryVal, 2).toString(10).split(''); // to string array
+	var sLen = Math.floor(s.length / 3);
+	var e1 = s.slice(0, sLen);
+	var e2 = s.slice(sLen, 2 * sLen);
+	var e3 = s.slice(2 * sLen, 0);
+	var coords = {
+		x: decimalify(e1)
+		, y: decimalify(e2)
+		, z: decimalify(e3)
+	}
+	return coords
+}
+
+function lorenzify(point, key, step) {
+	var x = point.x;
+	var y = point.y;
+	var z = point.z;
+	var s = key.s;
+	var r = key.r;
+	var b = key.b;
+	x = x + s * (y - x) / step;
+	y = y + (x * (r - z) - y) / step;
+	z = z + (x * y - b * z) / step;
+	var newPoint = {
+		x: x
+		, y: y
+		, z: z
+	}
+	return newPoint;
+}
+
+function lorenzHash(s1) {
+	var point = toCoords(s1);
+	var step = 500;
+	var s = 10;
+	var b = 8 / 3;
+	if (s1.length % 3 == 0) {
+		var r = 6;
+	}
+	else if (s1.length % 3 == 1) {
+		var r = 6;
+	}
+	else {
+		var r = 30;
+	}
+	var key = {
+		s: s
+		, r: r
+		, b: b
+	}
+	for (var i = 0; i < 10000; i++) {
+		point = lorenzify(point, key, step)
+	}
+	return fromCoords(point)
 }
