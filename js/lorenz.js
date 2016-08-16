@@ -83,6 +83,9 @@ function Lorenz() {
 function stringify(dec) {
 	dec = Math.abs(dec);
 	var s = toString(dec).replace('.', '');
+	while (s.length < 10) {
+		s += '0';
+	}
 	return s;
 }
 
@@ -96,6 +99,7 @@ function decimalify(s) { // to decimal, s is a string array
 }
 
 function toCoords(s) {
+	console.log('toCoords');
 	var binaryVal = '';
 	for (var i = 0; i < s.length; i++) {
 		binaryVal += s[i].charCodeAt(0).toString(2);
@@ -104,13 +108,29 @@ function toCoords(s) {
 	var sLen = Math.floor(s.length / 3);
 	var e1 = s.slice(0, sLen);
 	var e2 = s.slice(sLen, 2 * sLen);
-	var e3 = s.slice(2 * sLen, 0);
+	var e3 = s.slice(2 * sLen, s.length);
 	var coords = {
 		x: decimalify(e1)
 		, y: decimalify(e2)
 		, z: decimalify(e3)
 	}
+	console.log(coords);
 	return coords
+}
+
+function fromCoords(point) {
+	console.log('fromCoords');
+	var lista = [];
+	$.each(point, function (key, value) {
+		lista.push(stringify(Math.floor(value * Math.pow(10, 8))));
+	});
+	var str1 = '';
+	$.each(lista, function (index, value) {
+		str1 += value;
+	});
+	console.log(str1);
+	console.log(parseInt(str1).toString(16));
+	console.log((12345).toString(16));
 }
 
 function lorenzify(point, key, step) {
@@ -132,6 +152,7 @@ function lorenzify(point, key, step) {
 }
 
 function lorenzHash(s1) {
+	console.log('lorenzHash');
 	var point = toCoords(s1);
 	var step = 500;
 	var s = 10;
@@ -153,5 +174,11 @@ function lorenzHash(s1) {
 	for (var i = 0; i < 10000; i++) {
 		point = lorenzify(point, key, step)
 	}
-	return fromCoords(point)
+	fromCoords(point);
+}
+
+function lHash() {
+	console.log('lHash');
+	var password = document.getElementById('password').value;
+	lorenzHash(password);
 }
