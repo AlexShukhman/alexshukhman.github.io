@@ -40,10 +40,30 @@ h1 {
 	border: none;
 }
 
+.canvasButton:hover {
+	color: #3f573d;
+}
+
 foot {
 	font-family: 'Roboto', sans-serif;
 	font-size: 12pt;
 	text-align: right;
 	color: #151515;
 	background-color: #fff;
+}
+
+.inlineButton {
+	border: none;
+	background: none;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.inlineButton:hover {
+	color: #3f573d;
+}
+
+.inlineInput {
+	border: none;
+	background: none;
 }

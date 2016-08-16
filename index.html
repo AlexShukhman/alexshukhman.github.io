@@ -45,12 +45,15 @@
 	<!-- Lorenz Hash -->
 	<div class="grid1_2">
 		<div class='col-xs-6'>
-			<h2 id='lHashText'>So what can that do, what's the point?</h2> <b>I thought for a bit and I figured the best use is a "Hash Function", a function that creates a set length, unrecognizable code for stuff like password safety</b> </div>
+			<h2 id='lHashText'><b>So what can that do, what's the point?</b></h2>
+			<p>I thought for a bit and I figured the best use is a "Hash Function", a function that creates a set length, unrecognizable code for stuff like password safety -- mind you this hash is a work in progress, I am no cryptography specialist.</p>
+		</div>
 		<div class='col-xs-6'>
+			<h2><b>Try Me!</b></h2>
 			<p> Enter a Password: </p>
-			<input id="password" placeholder="password">
+			<input class='inlineInput' id="password" placeholder="password">
 			<br>
-			<button type="button" onClick='lHash()' value="Submit">Submit</button>
+			<button class="inlineButton" type="button" onClick='lHash()' value="Submit">Submit</button>
 			<p id="lHashOut"></p>
 		</div>
 	</div>

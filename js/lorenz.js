@@ -122,15 +122,10 @@ function fromCoords(point) {
 	console.log('fromCoords');
 	var lista = [];
 	$.each(point, function (key, value) {
-		lista.push(stringify(Math.floor(value * Math.pow(10, 8))));
+		lista.push(JSON.stringify(Math.floor(Math.abs(value) * Math.pow(10, 8))));
 	});
-	var str1 = '';
-	$.each(lista, function (index, value) {
-		str1 += value;
-	});
-	console.log(str1);
-	console.log(parseInt(str1).toString(16));
-	console.log((12345).toString(16));
+	console.log(lista);
+	return parseInt(lista).toString(16);
 }
 
 function lorenzify(point, key, step) {
@@ -174,11 +169,11 @@ function lorenzHash(s1) {
 	for (var i = 0; i < 10000; i++) {
 		point = lorenzify(point, key, step)
 	}
-	fromCoords(point);
+	return fromCoords(point);
 }
 
 function lHash() {
 	console.log('lHash');
 	var password = document.getElementById('password').value;
-	lorenzHash(password);
+	$('#lHashOut').html(lorenzHash(password));
 }
