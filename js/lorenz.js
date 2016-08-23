@@ -118,11 +118,25 @@ function toCoords(s) {
 	return coords
 }
 
+function stringify(s) {
+	if (s.length < 12) {
+		s = s + 0;
+		return stringify(s);
+	}
+	else if (s.length > 12) {
+		s = s.substr(1, s.length + 1);
+		return stringify(s);
+	}
+	else {
+		return s
+	}
+}
+
 function fromCoords(point) {
 	console.log('fromCoords');
 	var lista = [];
 	$.each(point, function (key, value) {
-		lista.push(JSON.stringify(Math.floor(Math.abs(value) * Math.pow(10, 8))));
+		lista.push(JSON.stringify(Math.floor(Math.abs(value) * Math.pow(10, 12))));
 	});
 	console.log(lista);
 	return parseInt(lista).toString(16);
