@@ -1,1 +1,0 @@
-# alexshukhman.github.io
