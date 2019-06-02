@@ -8,4 +8,5 @@ Recommended Environment:
 * Python 3 -- Anaconda: https://www.anaconda.com/download/
 '''
 
-print('Hello World! 2')
+with open('./public/html/title.html', 'w') as f:
+    f.write('hello!')
