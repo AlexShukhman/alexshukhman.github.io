@@ -1,0 +1,162 @@
+[{
+        "name": "AWS",
+        "fluent": [
+            "EC2",
+            "Lightsail",
+            "S3"
+        ],
+        "semi": [
+            "Lambda",
+            "Device Farm"
+        ],
+        "learning": [
+            "API Gateway",
+            "CloudFormation",
+            "Hadoop"
+        ]
+    },
+    {
+        "name": "GCP",
+        "fluent": [
+            "Cloud Functions",
+            "Cloud Store",
+            "Compute Engine",
+            "Kubernetes Engine",
+            "Container Registry"
+        ],
+        "semi": [
+            "Stackdriver Logging"
+        ],
+        "learning": [
+            "Firebase Test Lab"
+        ]
+    },
+    {
+        "name": "DigitalOcean",
+        "semi": [
+            "Droplets"
+        ]
+    },
+    {
+        "name": "Azure",
+        "learning": [
+            "Visual Studio App Center"
+        ]
+    },
+    {
+        "name": "Architecture/Design Patterns/Tech",
+        "fluent": [
+            "REST",
+            "HTTP",
+            "Web Sockets",
+            "Middleware",
+            "Pub-Sub",
+            "Serverless"
+        ],
+        "semi": [
+            "Micro Services",
+            "Distributed Computing"
+        ],
+        "learning": [
+            "IOT",
+            "GraphQL",
+            "Observer"
+        ]
+    },
+    {
+        "name": "Languages",
+        "fluent": [
+            "Python",
+            "Javascript",
+            "HTML/CSS"
+        ],
+        "semi": [
+            "Bash/Shell",
+            "R"
+        ],
+        "learning": [
+            "Java",
+            "Golang",
+            "PHP",
+            "Batch",
+            "Matlab",
+            "Android (Java)",
+            "iOS (Objective-C)"
+        ]
+    },
+    {
+        "name": "Technologies",
+        "fluent": [
+            "NodeJS",
+            "ExpressJS",
+            "JSX",
+            "SQL",
+            "MongoQL",
+            "Markdown",
+            "Docker",
+            "Docker-Compose",
+            "Git/GitHub"
+        ],
+        "semi": [
+            "ReactJS",
+            "Appium/Selenium/Protractor",
+            "Ansible",
+            "Terraform"
+        ],
+        "learning": [
+            "Redux",
+            "AngularJS",
+            "Flask",
+            "UI-Automator",
+            "Spark",
+            "Hadoop"
+        ]
+    }, 
+    {
+        "name": "Technical Skills",
+        "fluent": [
+            "Webscraping",
+            "API Building",
+            "Agile Scrum",
+            "Documentation"
+        ],
+        "semi": [],
+        "learning": [
+            "Project Ownership",
+            "Product Management"
+        ]
+    },
+    {
+        "name": "Other",
+        "fluent": [
+            "Microsoft Suite",
+            "GSuite",
+            "Adobe Illustrator",
+            "Adobe Photoshop",
+            "Adobe Indesign",
+            "SolidWorks"
+        ],
+        "semi": [
+            "Blender",
+            "Sketchup",
+            "AutoDesk AutoCad",
+            "KeyShot",
+            "Solidworks Viz"
+        ],
+        "learning": [
+            "Rhinoceros 3D",
+            "Photoview 360"
+        ]
+    },
+    {
+        "name": "Soft Skills",
+        "semi": [
+            "Startups",
+            "Spanish",
+            "Juggling"
+        ],
+        "learning": [
+            "German"
+        ]
+    }
+]
