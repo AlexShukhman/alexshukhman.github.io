@@ -1,7 +1,7 @@
 {
-    "pre_title": "Hello, my name is:",
-    "title": "Alex",
-    "post_title": "and my superpower is",
+    "pre_title": "Hello! I'm",
+    "title": "Alex Shukhman",
+    "post_title": "and my superpowers are",
     "extras": [
         "Software Engineering",
         "Cloud Architecture",
@@ -10,6 +10,6 @@
         "Cooking",
         "More Software Engineering",
         "Building Startups",
-        "Empowering Coders"
+        "Empowering New Coders"
     ]
 }

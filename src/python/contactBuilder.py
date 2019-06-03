@@ -10,6 +10,9 @@ common = importlib.import_module('src.python.common')
 # Build HTML from JSON
 def build(fType, fName, j):
     html = ""
+
+    
+
     return fType, fName, html
 
 
