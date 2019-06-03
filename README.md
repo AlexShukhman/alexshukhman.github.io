@@ -8,7 +8,7 @@ I recommend using [Git](https://www.atlassian.com/git/tutorials/what-is-git) to 
 
 ## Required to Run (Locally)
 
-* [NodeJS](https://nodejs.org/en/download/) -- I use this only because of the self-referential nature of the app. Take a look at the [guide]() to see why this is neccesary.
+* [NodeJS](https://nodejs.org/en/download/) -- I use this only because of the self-referential nature of the app. Take a look at the [guide](README.md#how-it-works) to see why this is neccesary.
 * An up-to-date browser -- if you're using Internet Explorer, I can't help you. [Go here for salvation.](https://www.google.com/chrome/)
 
 ## Required to Build (Locally)
