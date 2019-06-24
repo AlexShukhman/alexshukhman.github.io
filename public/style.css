@@ -34,3 +34,29 @@ p {
     font-size: 20vmin;
     margin: 0;
 }
+
+.footer {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 5vmin;
+    font-size: 3vmin;
+    text-align: center;
+    vertical-align: center;
+    color: ghostwhite;
+    position: absolute;
+    bottom: 0;
+    background-color: darkslategrey;
+}
+
+.footer a {
+    color: ghostwhite;
+}
+
+.footer td {
+    width: 30vw;
+}
+
+.foot_first {
+    width: 40vw;
+}

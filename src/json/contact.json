@@ -1,1 +1,9 @@
-{}
+{
+    "build_tools": [
+        " Python",
+        " Node",
+        " Love"
+    ],
+    "server": "<a href='https://github.com/alexshukhman'>GitHub</a>",
+    "email": "alex.jacob.shukhman+ws@gmail.com"
+}
