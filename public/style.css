@@ -1,5 +1,12 @@
+html,
 body {
     font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%
+}
+
+div {
     padding: 0;
     margin: 0;
 }
@@ -8,20 +15,29 @@ p {
     margin: 0;
 }
 
-#title {
-    font-weight: 600;
+a {
+    color: inherit;
+}
+
+#title,
+#intro {
     height: 100vh;
     width: 100vw;
-    background-color: #8ed3ff;
-    text-align: center;
-    font-size: 8vmin;
     display: table-cell;
     vertical-align: middle;
 }
 
+#title {
+    background-color: #8ed3ff;
+    font-size: 8vmin;
+    font-weight: 600;
+    text-align: center;
+}
+
+
 #title h1 {
     margin: 0;
-    font-size: 20vmin; 
+    font-size: 20vmin;
 }
 
 #title h2 {
@@ -35,8 +51,24 @@ p {
     margin: 0;
 }
 
+#intro {
+    background-color: beige;
+    font-size: 3vmin;
+}
+
+#intro td {
+    width: 50vw;
+    padding: 3vh 3vw 3vh 3vw;
+}
+
+#intro img {
+    height: 94vh;
+    width: 44vw;
+    object-fit: cover;
+}
+
 .footer {
-    margin: 0;
+    position: fixed;
     padding: 0;
     width: 100vw;
     height: 5vmin;
@@ -44,7 +76,6 @@ p {
     text-align: center;
     vertical-align: center;
     color: ghostwhite;
-    position: absolute;
     bottom: 0;
     background-color: darkslategrey;
 }

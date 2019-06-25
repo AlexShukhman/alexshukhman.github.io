@@ -13,7 +13,7 @@ def build(fType, fName, j):
 
     html += f"<td class='foot_first'>Built with <span id='typeIn_foot'></span></td>" 
 
-    html += f"<td>with {j['server']}</td>"
+    html += f"<td>on {j['server']}</td>"
 
     html += f"<td>by <a href='mailto:{j['email']}'>Alex</a></td></tr></table>" 
 

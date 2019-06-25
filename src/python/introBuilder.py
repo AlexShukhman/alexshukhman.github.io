@@ -9,7 +9,10 @@ common = importlib.import_module('src.python.common')
 # ----- Local Helpers -----
 # Build HTML from JSON
 def build(fType, fName, j):
-    html = ""
+    html = f"<table><tr><td><img src={j['img']}></td>"
+
+    html += f"<td>{j['intro']}</td></tr></table>"
+
     return fType, fName, html
 
 
