@@ -98,7 +98,7 @@ hr {
     text-align: center;
     font-size: 15vmin;
     padding-top: 3vmin;
-    padding-bottom: 3vmin; 
+    padding-bottom: 3vmin;
 }
 
 .iconImg {
@@ -130,14 +130,15 @@ hr {
     justify-content: center;
 }
 
-.experienceName, .skillsName {
+.experienceName,
+.skillsName {
     text-align: center;
     font-size: 10vmin;
     padding-bottom: 3vmin;
     width: 100%;
 }
 
-.skillsHeader{
+.skillsHeader {
     font-size: 120%;
     font-weight: bold;
 }
@@ -157,4 +158,26 @@ hr {
 .skillsList {
     padding: 5vmin;
     text-align: center;
+}
+
+.experienceTitle,
+.experienceDates,
+.experienceDescription {
+    width: 100%;
+    text-align: center;
+}
+
+.experienceTitle {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.experienceDates {
+    margin-bottom: 2%;
+}
+
+.experienceDescription {
+    font-size: 120%;
+    padding-left: 5vmin;
+    padding-right: 5vmin;
 }

@@ -18,6 +18,9 @@ def build(fType, fName, j):
         html += f'<div class="modal" id="{t}View{str(i)}">'
         # Content
         html += f"<p class='{t}Name'><a href='{j[i]['website']}'>{j[i]['name']}</a></p>"
+        html += f"<p class='{t}Title'>{j[i]['position']}</p><br>"
+        html += f"<p class='{t}Dates'>{j[i]['start_date']} - {j[i]['end_date'] if j[i]['end_date'] is not '' else 'Present'}</p><br>"
+        html += f"<p class='{t}Description'>{j[i]['description']}</p>"
         # /Content
         html += "</div>"
     html += f"</div><script>updateTag('{t}', -1);</script>"
