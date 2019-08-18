@@ -1,1 +1,73 @@
-{}
+[{
+        "name": "Iulius",
+        "logo": "https://iulius.io/public/images/iulius_logo_icon.svg",
+        "website": "https://iulius.io",
+        "position": "Founder and CEO",
+        "start_date": "Feb, 2019",
+        "end_date": "",
+        "description": "Leveraging insights and technology from Smop Technologies to build more advanced and capable freelancing platform for later-stage, more developed startups and mid-sized software companies."
+    },
+    {
+        "name": "Terrabl",
+        "logo": "https://github.com/terrabl/Website/blob/master/custom_theme/img/logo.png?raw=true",
+        "website": "https://terrabl.com",
+        "position": "Creator",
+        "start_date": "June, 2019",
+        "end_date": "",
+        "description": "Created and running open-source cloud architecture project."
+    },
+    {
+        "name": "Smop Technologies",
+        "logo": "https://smop.io/images/smopblack.png",
+        "website": "https://smop.io",
+        "position": "Founder and CEO",
+        "start_date": "July, 2016",
+        "end_date": "March, 2019",
+        "description": "CEO, lead full-stack developer and creator of a web-based software freelancing marketplace."
+    },
+    {
+        "name": "Perch Interactive",
+        "logo": "https://static1.squarespace.com/static/5975ff8d37c581dd4639b480/t/5c1c0a94b8a0453083a94835/1562078765140/?format=1500w",
+        "website": "https://perchinteractive.com",
+        "position": "Full Stack Engineer",
+        "start_date": "February, 2019",
+        "end_date": "",
+        "description": "Full-stack software developer specializing in web-development for high-growth startup."
+    },
+    {
+        "name": "MoQuality",
+        "logo": "https://pbs.twimg.com/profile_images/840270255951769600/naMK5S0z_400x400.jpg",
+        "website": "https://moquality.com",
+        "position": "Full-Stack Engineer",
+        "start_date": "May, 2018",
+        "end_date": "July, 2018",
+        "description": "A full-stack engineer working on architecture and development of mostly backend projects and modules. Worked with AWS, Google Cloud, Azure, Python, Java, Selenium, Appium, UIAutomator and other Android-based development and testing tools."
+    },
+    {
+        "name": "Manhattan Associates",
+        "logo": "https://media.licdn.com/dms/image/C4D0BAQECf3GbDlaHaQ/company-logo_400_400/0?e=1570060800&v=beta&t=YdfH_cZLEQwzVkSh4T6Ifq72dYcB3xG1vyFbXhVh7EY",
+        "website": "https://manh.com",
+        "position": "QA Automation Engineering Intern",
+        "start_date": "May, 2017",
+        "end_date": "July, 2017",
+        "description": "Developed proof of concept for automating testing for pre-release Java and AngularJS web-based application using Selenium, Protractor, Java, JavaScript, Typescript, Node.js and Python."
+    },
+    {
+        "name": "Egos Ventures",
+        "logo": "https://pbs.twimg.com/profile_images/2254669357/egos_logo_new_400x400.png",
+        "website": "https://www.car360.com/",
+        "position": "UI Designer and Front-End Developer",
+        "start_date": "May, 2016",
+        "end_date": "July, 2016",
+        "description": "Designed icons, logos and layouts for apps and website. Developed website in agile scrum team."
+    },
+    {
+        "name": "Unilever",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Unilever.svg/240px-Unilever.svg.png",
+        "website": "https://unilever.com",
+        "position": "Design Engineer",
+        "start_date": "May, 2015",
+        "end_date": "July, 2015",
+        "description": "Developed best practice methods (kanban) for cross-functional packaging team. Tested and worked on rapid prototyping for several bottle designs for Dove and other brands."
+    }
+]

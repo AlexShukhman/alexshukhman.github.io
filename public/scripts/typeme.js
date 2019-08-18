@@ -15,7 +15,6 @@ var timeout = 100; // ms
 function writeIn(e, index, wd, wdI, t) {
     if (!title && !foot) setTimeout(()=>{writeIn(e, 0,0,0, t);}, 200); // try again in 200 ms
     else {
-        console.log(t)
         if (wd == 0 && wdI == 0) setTimeout(()=>{
             if (t == 'title') $(e).html('&#10003; '); // starting condition
             else $(e).html('');
