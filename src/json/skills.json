@@ -24,10 +24,15 @@
             "Cloud Store",
             "Compute Engine",
             "Kubernetes Engine",
-            "Container Registry"
+            "Container Registry",
+            "Firebase Functions",
+            "Firestore",
+            "Firebase Hosting",
+            "Firebase Auth"
         ],
         "semi": [
-            "Stackdriver Logging"
+            "Stackdriver Logging",
+            "Google Cloud Run"
         ],
         "learning": [
             "Firebase Test Lab"
@@ -56,11 +61,11 @@
             "Web Sockets",
             "Middleware",
             "Pub-Sub",
+            "Distributed Computing",
             "Serverless"
         ],
         "semi": [
-            "Micro Services",
-            "Distributed Computing"
+            "Micro Services"
         ],
         "learning": [
             "IOT",
@@ -73,7 +78,7 @@
         "img": "https://cdn3.iconfinder.com/data/icons/user-interface-web-1/550/web-circle-circular-round_11-512.png",
         "fluent": [
             "Python",
-            "Javascript",
+            "Javascript/TypeScript",
             "HTML/CSS"
         ],
         "semi": [
@@ -99,6 +104,7 @@
             "JSX",
             "SQL",
             "MongoQL",
+            "Firestore QL",
             "Markdown",
             "Docker",
             "Docker-Compose",

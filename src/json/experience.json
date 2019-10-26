@@ -1,9 +1,9 @@
 [{
         "name": "Iulius",
-        "logo": "https://iulius.io/public/images/iulius_logo_icon.svg",
+        "logo": "https://media.licdn.com/dms/image/C560BAQFpblY_epgy-w/company-logo_200_200/0?e=2159024400&v=beta&t=6LfG6rY16qYO_fqFgrBATboJk-UQV_XWiDvVqcQZUPg",
         "website": "https://iulius.io",
         "position": "Founder and CEO",
-        "start_date": "Feb, 2019",
+        "start_date": "February, 2019",
         "end_date": "",
         "description": "Leveraging insights and technology from Smop Technologies to build more advanced and capable freelancing platform for later-stage, more developed startups and mid-sized software companies."
     },
@@ -18,16 +18,25 @@
     },
     {
         "name": "Smop Technologies",
-        "logo": "https://smop.io/images/smopblack.png",
-        "website": "https://smop.io",
+        "logo": "https://smop.llc/images/smopblack.png",
+        "website": "https://smop.llc",
         "position": "Founder and CEO",
         "start_date": "July, 2016",
         "end_date": "March, 2019",
         "description": "CEO, lead full-stack developer and creator of a web-based software freelancing marketplace."
     },
     {
+        "name": "Very Good Ventures",
+        "logo": "https://images.squarespace-cdn.com/content/v1/5a959458b40b9d3fe46fde59/1557248657158-646X2MVNT3QXUGWW3OJA/ke17ZwdGBToddI8pDm48kO2pS9cMHbO4RvHPc8Skf1tZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7SSwGn0TPzISNt3iSJufpcvR7xFZ2oYA-YTitnkXPCuTgiUfhLEJ_Uxi_cK3qclb8w/VGV-unicorn-small.png?format=500w",
+        "website": "https://verygood.ventures",
+        "position": "Back-End Engineer and Cloud Architect",
+        "start_date": "August, 2019",
+        "end_date": "",
+        "description": "Back-end engineer and cloud architect, leading development of API's and frameworks for various client-facing and internal projects."
+    },
+    {
         "name": "Perch Interactive",
-        "logo": "https://static1.squarespace.com/static/5975ff8d37c581dd4639b480/t/5c1c0a94b8a0453083a94835/1562078765140/?format=1500w",
+        "logo": "https://media.licdn.com/dms/image/C4D0BAQGxwY4D00EkUg/company-logo_200_200/0?e=2159024400&v=beta&t=GJEXGK7ZHmkCM7AE6rCcmzEAQKnz6HJuksGPlZfmRuo",
         "website": "https://perchinteractive.com",
         "position": "Full Stack Engineer",
         "start_date": "February, 2019",
@@ -45,7 +54,7 @@
     },
     {
         "name": "Manhattan Associates",
-        "logo": "https://media.licdn.com/dms/image/C4D0BAQECf3GbDlaHaQ/company-logo_400_400/0?e=1570060800&v=beta&t=YdfH_cZLEQwzVkSh4T6Ifq72dYcB3xG1vyFbXhVh7EY",
+        "logo": "https://pbs.twimg.com/profile_images/1115278588620750848/mIi7xIwc_400x400.png",
         "website": "https://manh.com",
         "position": "QA Automation Engineering Intern",
         "start_date": "May, 2017",
