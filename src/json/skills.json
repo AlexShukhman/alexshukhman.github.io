@@ -86,8 +86,8 @@
             "R"
         ],
         "learning": [
-            "Java",
             "Golang",
+            "Java",
             "PHP",
             "Batch",
             "Matlab",
@@ -105,6 +105,7 @@
             "SQL",
             "MongoQL",
             "Firestore QL",
+            "RTDB",
             "Markdown",
             "Docker",
             "Docker-Compose",
@@ -117,6 +118,7 @@
             "Terraform"
         ],
         "learning": [
+            "Redis",
             "Redux",
             "AngularJS",
             "Flask",
@@ -163,7 +165,8 @@
         "learning": [
             "Rhinoceros 3D",
             "Photoview 360",
-            "German"
+            "German",
+            "French"
         ]
     }
 ]
