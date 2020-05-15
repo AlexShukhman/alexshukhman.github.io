@@ -1,10 +1,20 @@
-[{
+[
+    {
+        "name": "The Privacy Co.",
+        "logo": "https://media-exp1.licdn.com/dms/image/C4E0BAQGLIdhNe0xcvQ/company-logo_200_200/0?e=1597881600&v=beta&t=SVkdX7xK45_57obJdrrM9HYaM9iCs9ygzctF-E1TKOI",
+        "website": "https://theprivacyco.com",
+        "position": "Lead Backend Engineer",
+        "start_date": "February, 2020",
+        "end_date": "",
+        "description": "Lead backend engineer owning the API for an early stage, high-growth privacy and data security startup. Leveraging NodeJS and MongoDB to integrate with various API's and to support iOS app."
+    },
+    {
         "name": "Iulius",
         "logo": "https://media.licdn.com/dms/image/C560BAQFpblY_epgy-w/company-logo_200_200/0?e=2159024400&v=beta&t=6LfG6rY16qYO_fqFgrBATboJk-UQV_XWiDvVqcQZUPg",
         "website": "https://iulius.io",
         "position": "Founder and CEO",
         "start_date": "February, 2019",
-        "end_date": "",
+        "end_date": "January, 2020",
         "description": "Leveraging insights and technology from Smop Technologies to build more advanced and capable freelancing platform for later-stage, more developed startups and mid-sized software companies."
     },
     {
@@ -13,7 +23,7 @@
         "website": "https://terrabl.com",
         "position": "Creator",
         "start_date": "June, 2019",
-        "end_date": "",
+        "end_date": "January, 2020",
         "description": "Created and running open-source cloud architecture project."
     },
     {
@@ -36,7 +46,7 @@
     },
     {
         "name": "Perch Interactive",
-        "logo": "https://media.licdn.com/dms/image/C4D0BAQGxwY4D00EkUg/company-logo_200_200/0?e=2159024400&v=beta&t=GJEXGK7ZHmkCM7AE6rCcmzEAQKnz6HJuksGPlZfmRuo",
+        "logo": "https://images.squarespace-cdn.com/content/5975ff8d37c581dd4639b480/1555353972656-K62U0HTFM13L65ZG5X7Z/2.png?content-type=image%2Fpng",
         "website": "https://perchinteractive.com",
         "position": "Full Stack Engineer",
         "start_date": "February, 2019",

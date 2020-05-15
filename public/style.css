@@ -143,16 +143,20 @@ hr {
     font-weight: bold;
 }
 
-.fluent {
+.expert {
     color: darkgreen;
 }
 
+.fluent {
+    color: darkblue;
+}
+
 .semi {
-    color: darkolivegreen;
+    color: darkmagenta;
 }
 
 .learning {
-    color: cadetblue;
+    color: brown;
 }
 
 .skillsList {

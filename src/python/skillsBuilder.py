@@ -18,7 +18,7 @@ def build(fType, fName, j):
         html += f'<div class="modal" id="{t}View{str(i)}">'
         # Content
         html += f"<p class='{t}Name'>{j[i]['name']}</p>"
-        for e in ['fluent', 'semi', 'learning']:
+        for e in ['expert', 'fluent', 'semi', 'learning']:
             if e in j[i].keys():
                 html += f"<div class='{t}List'>"
                 html += f"<p class='{t}Header {e}'>{e.capitalize()}</p>"

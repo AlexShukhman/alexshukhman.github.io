@@ -18,21 +18,21 @@
     },
     {
         "name": "GCP",
-        "img": "https://cloud.google.com/_static/images/cloud/icons/favicons/onecloud/super_cloud.png",
-        "fluent": [
+        "img": "https://cloud.google.com/images/velostrata/cloud-lockup-logo.png",
+        "expert": [
             "Cloud Functions",
             "Cloud Store",
-            "Compute Engine",
             "Kubernetes Engine",
-            "Container Registry",
             "Firebase Functions",
-            "Firestore",
+            "Firestore"
+        ],
+        "fluent": [
+            "Compute Engine",
+            "Container Registry",
+            "Stackdriver Logging",
+            "Google Cloud Run",
             "Firebase Hosting",
             "Firebase Auth"
-        ],
-        "semi": [
-            "Stackdriver Logging",
-            "Google Cloud Run"
         ],
         "learning": [
             "Firebase Test Lab"
@@ -55,17 +55,21 @@
     {
         "name": "Architecture/Design Patterns/Tech",
         "img": "https://cdn.bairesdev.com/wp-content/uploads/2018/12/Cloud-Computing-DevOps.png",
+        "expert": [
+            "HTTP",
+            "Middleware"
+        ],
         "fluent": [
             "REST",
-            "HTTP",
             "Web Sockets",
-            "Middleware",
             "Pub-Sub",
             "Distributed Computing",
+            "Micro Services",
             "Serverless"
         ],
         "semi": [
-            "Micro Services"
+            "RPC",
+            "Peer-to-Peer Computing"
         ],
         "learning": [
             "IOT",
@@ -76,9 +80,11 @@
     {
         "name": "Languages",
         "img": "https://cdn3.iconfinder.com/data/icons/user-interface-web-1/550/web-circle-circular-round_11-512.png",
+        "expert": [
+            "Javascript/TypeScript"
+        ],
         "fluent": [
             "Python",
-            "Javascript/TypeScript",
             "HTML/CSS"
         ],
         "semi": [
@@ -98,18 +104,20 @@
     {
         "name": "Technologies",
         "img": "./public/images/technology_icon.png",
-        "fluent": [
+        "expert": [
             "NodeJS",
             "ExpressJS",
+            "Markdown",
+            "Git/GitHub"
+        ],
+        "fluent": [
             "JSX",
             "SQL",
             "MongoQL",
             "Firestore QL",
             "RTDB",
-            "Markdown",
             "Docker",
-            "Docker-Compose",
-            "Git/GitHub"
+            "Docker-Compose"
         ],
         "semi": [
             "ReactJS",
@@ -130,11 +138,13 @@
     {
         "name": "Technical Skills",
         "img": "https://cdn.onlinewebfonts.com/svg/img_534142.png",
+        "expert": [
+            "API Building",
+            "Documentation"
+        ],
         "fluent": [
             "Webscraping",
-            "API Building",
-            "Agile Scrum",
-            "Documentation"
+            "Agile Scrum"
         ],
         "learning": [
             "Project Ownership",
@@ -144,10 +154,12 @@
     {
         "name": "Other",
         "img": "https://image.flaticon.com/icons/svg/61/61099.svg",
-        "fluent": [
+        "expert": [
             "Microsoft Suite",
             "GSuite",
-            "Adobe Illustrator",
+            "Adobe Illustrator"
+        ],
+        "fluent": [
             "Adobe Photoshop",
             "Adobe Indesign",
             "SolidWorks"
