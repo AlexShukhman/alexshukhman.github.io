@@ -1,7 +1,7 @@
 [
     {
         "name": "The Privacy Co.",
-        "logo": "https://www.theprivacy.co/wp-content/uploads/2019/08/PrivacyCo_Logo_Color-300w.jpg",
+        "logo": "https://ajsgendev-general-public.s3.amazonaws.com/priivlogo.jpg",
         "website": "https://theprivacy.co",
         "position": "Lead Backend Engineer",
         "start_date": "February, 2020",
@@ -10,7 +10,7 @@
     },
     {
         "name": "Iulius",
-        "logo": "https://media.licdn.com/dms/image/C560BAQFpblY_epgy-w/company-logo_200_200/0?e=2159024400&v=beta&t=6LfG6rY16qYO_fqFgrBATboJk-UQV_XWiDvVqcQZUPg",
+        "logo": "https://ajsgendev-general-public.s3.amazonaws.com/iulius.png",
         "website": "https://iulius.io",
         "position": "Founder and CEO",
         "start_date": "February, 2019",
@@ -19,7 +19,7 @@
     },
     {
         "name": "Terrabl",
-        "logo": "https://github.com/terrabl/Website/blob/master/custom_theme/img/logo.png?raw=true",
+        "logo": "https://ajsgendev-general-public.s3.amazonaws.com/terrabl.png",
         "website": "https://terrabl.com",
         "position": "Creator",
         "start_date": "June, 2019",
@@ -28,7 +28,7 @@
     },
     {
         "name": "Smop Technologies",
-        "logo": "https://media-exp1.licdn.com/dms/image/C510BAQHUgljrYD7JIw/company-logo_200_200/0/1519861565380?e=1617840000&v=beta&t=KqTXGEpTIO-QExWq7AYFxqXHF7x25dFMN2pA84GM5ms",
+        "logo": "https://ajsgendev-general-public.s3.amazonaws.com/smopblack.png",
         "website": "https://www.linkedin.com/company/smop-technologies/",
         "position": "Founder and CEO",
         "start_date": "July, 2016",
@@ -37,7 +37,7 @@
     },
     {
         "name": "Very Good Ventures",
-        "logo": "https://images.squarespace-cdn.com/content/v1/5a959458b40b9d3fe46fde59/1557248657158-646X2MVNT3QXUGWW3OJA/ke17ZwdGBToddI8pDm48kO2pS9cMHbO4RvHPc8Skf1tZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7SSwGn0TPzISNt3iSJufpcvR7xFZ2oYA-YTitnkXPCuTgiUfhLEJ_Uxi_cK3qclb8w/VGV-unicorn-small.png?format=500w",
+        "logo": "https://ajsgendev-general-public.s3.amazonaws.com/VGV-unicorn-small.png",
         "website": "https://verygood.ventures",
         "position": "Back-End Engineer and Cloud Architect",
         "start_date": "August, 2019",
@@ -46,7 +46,7 @@
     },
     {
         "name": "Perch Interactive",
-        "logo": "https://images.squarespace-cdn.com/content/5975ff8d37c581dd4639b480/1555353972656-K62U0HTFM13L65ZG5X7Z/2.png?content-type=image%2Fpng",
+        "logo": "https://ajsgendev-general-public.s3.amazonaws.com/perch.png",
         "website": "https://perchinteractive.com",
         "position": "Full Stack Engineer",
         "start_date": "February, 2019",
@@ -55,7 +55,7 @@
     },
     {
         "name": "MoQuality",
-        "logo": "https://pbs.twimg.com/profile_images/840270255951769600/naMK5S0z_400x400.jpg",
+        "logo": "https://ajsgendev-general-public.s3.amazonaws.com/moquality.jpg",
         "website": "https://moquality.com",
         "position": "Full-Stack Engineer",
         "start_date": "May, 2018",
@@ -64,7 +64,7 @@
     },
     {
         "name": "Manhattan Associates",
-        "logo": "https://media-exp1.licdn.com/dms/image/C4D0BAQGsRyHMo5lPWw/company-logo_200_200/0/1589806814493?e=1617840000&v=beta&t=qu2V_Jv0_qdys_DQFDlRNcKy-Xu2VdsiOsKCGYWTdgc",
+        "logo": "https://ajsgendev-general-public.s3.amazonaws.com/manhattanassociates.webp",
         "website": "https://manh.com",
         "position": "QA Automation Engineering Intern",
         "start_date": "May, 2017",
@@ -73,7 +73,7 @@
     },
     {
         "name": "Egos Ventures",
-        "logo": "https://pbs.twimg.com/profile_images/2254669357/egos_logo_new_400x400.png",
+        "logo": "https://ajsgendev-general-public.s3.amazonaws.com/egosventures.png",
         "website": "https://www.car360.com/",
         "position": "UI Designer and Front-End Developer",
         "start_date": "May, 2016",
@@ -82,7 +82,7 @@
     },
     {
         "name": "Unilever",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Unilever.svg/240px-Unilever.svg.png",
+        "logo": "https://ajsgendev-general-public.s3.amazonaws.com/unilever.svg",
         "website": "https://unilever.com",
         "position": "Design Engineer",
         "start_date": "May, 2015",

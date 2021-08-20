@@ -47,14 +47,14 @@
     },
     {
         "name": "Azure",
-        "img": "https://cdn.worldvectorlogo.com/logos/azure-1.svg",
+        "img": "https://ajsgendev-general-public.s3.amazonaws.com/azure.webp",
         "learning": [
             "Visual Studio App Center"
         ]
     },
     {
         "name": "Architecture/Design Patterns/Tech",
-        "img": "https://cdn.bairesdev.com/wp-content/uploads/2018/12/Cloud-Computing-DevOps.png",
+        "img": "https://ajsgendev-general-public.s3.amazonaws.com/architecture.svg",
         "expert": [
             "HTTP",
             "Middleware"
