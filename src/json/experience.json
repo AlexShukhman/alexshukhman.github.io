@@ -1,11 +1,20 @@
 [
     {
+        "name": "Zero Vaults, Inc",
+        "logo": "https://www.zerovaults.com/wp-content/uploads/2023/12/IMG_9633-IO-Bridge-600x-300x300.webp",
+        "website": "https://www.zerovaults.com/",
+        "position": "Senior/Lead Backend Engineer",
+        "start_date": "January, 2024",
+        "end_date": "",
+        "description": "Senior backend engineer building the backend for early-stage B2B data management/security company."
+    },
+    {
         "name": "The Privacy Co.",
         "logo": "https://ajsgendev-general-public.s3.amazonaws.com/priivlogo.jpg",
         "website": "https://theprivacy.co",
-        "position": "Lead Backend Engineer",
+        "position": "Senior Lead Backend Engineer",
         "start_date": "February, 2020",
-        "end_date": "",
+        "end_date": "January, 2024",
         "description": "Lead backend engineer owning the API for an early stage, high-growth privacy and data security startup. Leveraging NodeJS and MongoDB to integrate with various API's and to support iOS app."
     },
     {

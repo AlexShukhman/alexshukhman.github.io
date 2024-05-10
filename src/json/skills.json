@@ -8,7 +8,9 @@
         ],
         "semi": [
             "Lambda",
-            "Device Farm"
+            "Device Farm",
+            "EKS",
+            "ECR"
         ],
         "learning": [
             "API Gateway",
@@ -84,15 +86,15 @@
             "Javascript/TypeScript"
         ],
         "fluent": [
+            "Golang",
+            "Bash/Shell"
+        ],
+        "semi": [
             "Python",
             "HTML/CSS"
         ],
-        "semi": [
-            "Bash/Shell",
-            "R"
-        ],
         "learning": [
-            "Golang",
+            "R",
             "Java",
             "PHP",
             "Batch",
@@ -117,7 +119,9 @@
             "Firestore QL",
             "RTDB",
             "Docker",
-            "Docker-Compose"
+            "Docker-Compose",
+            "Kubernetes",
+            "Helm"
         ],
         "semi": [
             "ReactJS",
