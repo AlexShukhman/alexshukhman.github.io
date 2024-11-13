@@ -1,39 +1,30 @@
 [
     {
-        "name": "Zero Vaults, Inc",
-        "logo": "https://www.zerovaults.com/wp-content/uploads/2023/12/IMG_9633-IO-Bridge-600x-300x300.webp",
+        "name": "Lightning AI",
+        "logo": "https://ajsgendev-general-public.s3.us-east-1.amazonaws.com/lightning-hexagon-icon.svg",
+        "website": "https://www.zerovaults.com/",
+        "position": "Platform Engineer",
+        "start_date": "August, 2024",
+        "end_date": "",
+        "description": "Platform engineer for an AI services startup specializing in full-stack (backend-leaning) orchestration of highly-scalable AI services for B2B and B2C applications. Primarily leveraged Golang, Postgres, Kubernetes, and React (Typescript) on AWS and GCP clouds."
+    },
+    {
+        "name": "Zero Vaults, Inc (formerly The Privacy Co.)",
+        "logo": "https://ajsgendev-general-public.s3.us-east-1.amazonaws.com/zv_logo.webp",
         "website": "https://www.zerovaults.com/",
         "position": "Senior/Lead Backend Engineer",
-        "start_date": "January, 2024",
-        "end_date": "",
-        "description": "Senior backend engineer building the backend for early-stage B2B data management/security company."
-    },
-    {
-        "name": "The Privacy Co.",
-        "logo": "https://ajsgendev-general-public.s3.amazonaws.com/priivlogo.jpg",
-        "website": "https://theprivacy.co",
-        "position": "Senior Lead Backend Engineer",
         "start_date": "February, 2020",
-        "end_date": "January, 2024",
-        "description": "Lead backend engineer owning the API for an early stage, high-growth privacy and data security startup. Leveraging NodeJS and MongoDB to integrate with various API's and to support iOS app."
+        "end_date": "July, 2024",
+        "description": "Lead backend engineer owning the API for an early stage, high-growth privacy and data security startup. Leveraging NodeJS and MongoDB to integrate with various API's and to support iOS app. Transitioned to senior backend engineer building the full stack for early-stage B2B data management/security company."
     },
     {
-        "name": "Iulius",
+        "name": "Iulius / Terrabl",
         "logo": "https://ajsgendev-general-public.s3.amazonaws.com/iulius.png",
         "website": "https://iulius.io",
         "position": "Founder and CEO",
         "start_date": "February, 2019",
         "end_date": "January, 2020",
-        "description": "Leveraging insights and technology from Smop Technologies to build more advanced and capable freelancing platform for later-stage, more developed startups and mid-sized software companies."
-    },
-    {
-        "name": "Terrabl",
-        "logo": "https://ajsgendev-general-public.s3.amazonaws.com/terrabl.png",
-        "website": "https://terrabl.com",
-        "position": "Creator",
-        "start_date": "June, 2019",
-        "end_date": "January, 2020",
-        "description": "Created and running open-source cloud architecture project."
+        "description": "Leveraging insights and technology from Smop Technologies to build more advanced and capable freelancing platform for later-stage, more developed startups and mid-sized software companies. Created and running open-source cloud architecture project."
     },
     {
         "name": "Smop Technologies",
