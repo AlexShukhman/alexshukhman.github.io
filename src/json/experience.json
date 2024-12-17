@@ -6,7 +6,7 @@
         "position": "Platform Engineer",
         "start_date": "August, 2024",
         "end_date": "",
-        "description": "Platform engineer for an AI services startup specializing in full-stack (backend-leaning) orchestration of highly-scalable AI services for B2B and B2C applications. Primarily leveraged Golang, Postgres, Kubernetes, and React (Typescript) on AWS and GCP clouds."
+        "description": "Platform engineer for an AI services startup specializing in full-stack (backend-leaning) orchestration of highly-scalable AI and ML-specific services for B2B and B2C applications. Primarily leveraging Golang, Postgres, Docker, and React (Typescript) on AWS and GCP clouds with tools like Kubernetes/Helm, Cypress, and GORM. Also educating myself on AI and machine learning basics and contributing various Python implementations of AI models as part of day-to-day duties."
     },
     {
         "name": "Zero Vaults, Inc (formerly The Privacy Co.)",
@@ -15,7 +15,7 @@
         "position": "Senior/Lead Backend Engineer",
         "start_date": "February, 2020",
         "end_date": "July, 2024",
-        "description": "Lead backend engineer owning the API for an early stage, high-growth privacy and data security startup. Leveraging NodeJS and MongoDB to integrate with various API's and to support iOS app. Transitioned to senior backend engineer building the full stack for early-stage B2B data management/security company."
+        "description": "Primary engineer who led the push in developing the foundational codebase of The Privacy Co.’s pivot towards a B2B privacy-as-a-service offering. Leveraged Helm/Kubernetes alongside JavaScript and Golang while designing and building the enterprise-scale service bus architecture for key management, distributed encryption, and PII obfuscation. Formerly lead backend engineer (The Privacy Co.) who contributed >90% of the API, mentoring junior JS engineers, and managed, tested, and maintained all the JS codebases. API and 3rd-party integration work led to significant increases in user engagement and lead investor interest. Leveraged NodeJS, Golang, Redis, MongoDB, and AWS."
     },
     {
         "name": "Iulius / Terrabl",
@@ -42,7 +42,7 @@
         "position": "Back-End Engineer and Cloud Architect",
         "start_date": "August, 2019",
         "end_date": "January, 2020",
-        "description": "Back-end engineer and cloud architect for bleeding-edge Flutter dev shop. Leading development of API's and frameworks for various client-facing and internal projects."
+        "description": "Primary backend developer for boutique Flutter-based mobile development firm. Specialized in GCP and Firebase, writing dozens of microservices and unit tests primarily in Node (TypeScript and JavaScript). Also led an internal \"startup\" to increase the dev shop's presence in their product space."
     },
     {
         "name": "Perch Interactive",

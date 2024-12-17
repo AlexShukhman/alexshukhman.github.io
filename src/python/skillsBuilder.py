@@ -12,7 +12,11 @@ def build(fType, fName, j):
     t = "skills"
     html = f"<script>i.{t} = {str(len(j))};</script><p class='iconHeader'>"+t.capitalize() +"</p><div class='iconCont'>"
     for i in range(len(j)):
-        html += f"<img class='icon iconImg' id='{t}Icon{str(i)}' alt='{j[i]['name']}' src='{j[i]['img']}' onclick='updateTag(\"{t}\", {str(i)});'>"
+        scale = ''
+        if 'zoom' in j[i]:
+            zoom = j[i]['zoom']
+            scale = f"style='-webkit-transform: scale({zoom}); -moz-transform: scale({zoom}); -o-transform: scale({zoom}); -ms-transform: scale({zoom}); transform: scale({zoom});'"
+        html += f"<img {scale} class='icon iconImg' id='{t}Icon{str(i)}' alt='{j[i]['name']}' src='{j[i]['img']}' onclick='updateTag(\"{t}\", {str(i)});'>"
     html += "</div><div>"
     for i in range(len(j)):
         html += f'<div class="modal" id="{t}View{str(i)}">'
