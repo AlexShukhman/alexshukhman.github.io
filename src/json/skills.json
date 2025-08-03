@@ -50,25 +50,20 @@
         ]
     },
     {
-        "name": "Azure",
-        "img": "https://ajsgendev-general-public.s3.amazonaws.com/azure.webp",
-        "learning": [
-            "Visual Studio App Center"
-        ]
-    },
-    {
         "name": "Architecture/Design Patterns/Tech",
         "img": "https://ajsgendev-general-public.s3.amazonaws.com/architecture.svg",
         "expert": [
             "HTTP",
-            "Middleware"
-        ],
-        "fluent": [
+            "Middleware",
             "REST",
-            "Web Sockets",
-            "Pub-Sub",
             "Distributed Computing",
             "Micro Services",
+            "Service Bus / Control Plane",
+            "Pub-Sub",
+            "Caching Patterns"
+        ],
+        "fluent": [
+            "Web Sockets",
             "Serverless"
         ],
         "semi": [
@@ -85,10 +80,10 @@
         "name": "Languages",
         "img": "https://cdn3.iconfinder.com/data/icons/user-interface-web-1/550/web-circle-circular-round_11-512.png",
         "expert": [
-            "Javascript/TypeScript"
+            "Javascript/TypeScript",
+            "Golang"
         ],
         "fluent": [
-            "Golang",
             "Bash/Shell"
         ],
         "semi": [
@@ -100,7 +95,6 @@
             "Java",
             "PHP",
             "Batch",
-            "Matlab",
             "Android (Java)",
             "iOS (Objective-C)"
         ]
@@ -116,10 +110,10 @@
         ],
         "fluent": [
             "JSX",
+            "Gorm",
             "SQL",
+            "Redis",
             "MongoQL",
-            "Firestore QL",
-            "RTDB",
             "Docker",
             "Docker-Compose",
             "Kubernetes",
@@ -127,12 +121,13 @@
         ],
         "semi": [
             "ReactJS",
+            "Firestore QL",
+            "RTDB",
             "Appium/Selenium/Protractor",
             "Ansible",
             "Terraform"
         ],
         "learning": [
-            "Redis",
             "Redux",
             "AngularJS",
             "Flask",
