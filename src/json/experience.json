@@ -1,15 +1,26 @@
 [
     {
+        "name": "QDG Health",
+        "logo": "https://ajsgendev-general-public.s3.us-east-1.amazonaws.com/qdg-logomark-primary.png",
+        "website": "https://www.qdghealth.com/",
+        "position": "Senior Software Engineer",
+        "start_date": "October, 2025",
+        "end_date": "",
+        "description": "De facto team lead for 3-engineer software arm of a med-tech device startup building towards an FDA 510k premarket submission. Hired other engineers, coaching junior engineer, and managing daily external mobile contractor coordination. Leading architecture discussions, and building the backend and core web components on a K8s/Helm/GCP infrastructure with Redis and PostgreSQL. Owned HIPAA compliance and authored software/cyber documentation for the FDA submission (in progress). Designing and implementing RAG-based clinical impression engine trained on de-identified patient data in a data pipeline pulling from modern and legacy sources which will allow providers to interpret results daily instead of every six months and reduce the time to response for medical events from months to minutes.",
+        "ai": true
+    },
+    {
         "name": "Lightning AI",
         "logo": "https://ajsgendev-general-public.s3.us-east-1.amazonaws.com/lightning-hexagon-icon.svg",
         "website": "https://www.zerovaults.com/",
         "position": "Platform Engineer",
         "start_date": "August, 2024",
-        "end_date": "",
-        "description": "Platform engineer for an AI services startup specializing in full-stack (backend-leaning) orchestration of highly-scalable AI and ML-specific services for B2B and B2C applications. Primarily leveraging Golang, Postgres, Docker, and React (Typescript) on AWS and GCP clouds with tools like Kubernetes/Helm, Cypress, and GORM. Also educating myself on AI and machine learning basics and contributing various Python implementations of AI models as part of day-to-day duties."
+        "end_date": "August, 2025",
+        "description": "Platform engineer for an AI services startup specializing in full-stack (backend-leaning) orchestration of highly-scalable AI and ML-specific services for B2B and B2C applications. Primarily leveraging Golang, Postgres, Docker, and React (Typescript) on AWS and GCP clouds with tools like Kubernetes/Helm, Cypress, and GORM. Also educating myself on AI and machine learning basics and contributing various Python implementations of AI models as part of day-to-day duties.",
+        "ai": true
     },
     {
-        "name": "Zero Vaults, Inc (formerly The Privacy Co.)",
+        "name": "Zero Vaults / The Privacy Co.",
         "logo": "https://ajsgendev-general-public.s3.us-east-1.amazonaws.com/zv_logo.webp",
         "website": "https://www.zerovaults.com/",
         "position": "Senior/Lead Backend Engineer",

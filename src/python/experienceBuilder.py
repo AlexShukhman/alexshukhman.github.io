@@ -17,7 +17,11 @@ def build(fType, fName, j):
             zoom = j[i]['zoom']
             scale = f"style='-webkit-transform: scale({zoom}); -moz-transform: scale({zoom}); -o-transform: scale({zoom}); -ms-transform: scale({zoom}); transform: scale({zoom});'"
 
-        html += f"<img {scale} class='icon iconImg' id='{t}Icon{str(i)}' alt='{j[i]['name']}' src='{j[i]['logo']}' onclick='updateTag(\"{t}\", {str(i)});'>"
+        html += f"<div style='position:relative;display:inline-block;margin-bottom:8vmin'>"
+        html += f"<img {scale} class='icon iconImg' id='{t}Icon{str(i)}' alt='{j[i]['name']}' src='{j[i]['logo']}' onclick='updateTag(\"{t}\", {str(i)});' style='margin-bottom:0;display:block'>"
+        if j[i].get('ai'):
+            html += "<div style='position:absolute;top:10px;left:10px;width:30px;height:30px;background:#7c3aed;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 2px white'><span style='color:white;font-size:10px;font-weight:bold;line-height:1'>AI</span></div>"
+        html += "</div>"
     html += "</div><div>"
     for i in range(len(j)):
         html += f'<div class="modal" id="{t}View{str(i)}">'
