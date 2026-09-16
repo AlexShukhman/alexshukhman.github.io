@@ -211,3 +211,6 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Jetbrains
+.idea/
