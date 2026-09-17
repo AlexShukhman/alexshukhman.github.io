@@ -43,13 +43,6 @@
         ]
     },
     {
-        "name": "DigitalOcean",
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/1024px-DigitalOcean_logo.svg.png",
-        "semi": [
-            "Droplets"
-        ]
-    },
-    {
         "name": "Architecture/Design Patterns/Tech",
         "img": "https://ajsgendev-general-public.s3.amazonaws.com/architecture.svg",
         "expert": [
